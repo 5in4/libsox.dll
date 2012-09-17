@@ -1,0 +1,65 @@
+decoder.lo: \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/decoder.c \
+ config.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/global.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/unistd.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/process.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/getopt.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/fcntl.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/stream.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/bit.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/frame.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/fixed.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/timer.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/synth.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/decoder.h
+
+config.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/global.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/unistd.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/process.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/getopt.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/fcntl.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/stream.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/bit.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/frame.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/fixed.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/timer.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/synth.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/decoder.h:

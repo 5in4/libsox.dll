@@ -1,0 +1,10 @@
+libsox_la-fft4g.lo: fft4g.c \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ fft4g.h
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+fft4g.h:

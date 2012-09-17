@@ -1,0 +1,20 @@
+sox_sample_test.o: sox_sample_test.c sox_sample_test.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h sox.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/limits.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h
+
+sox_sample_test.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+sox.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/limits.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:

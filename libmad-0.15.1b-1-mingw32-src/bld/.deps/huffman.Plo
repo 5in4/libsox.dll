@@ -1,0 +1,11 @@
+huffman.lo: \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/huffman.c \
+ config.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/global.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/huffman.h
+
+config.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/global.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/huffman.h:

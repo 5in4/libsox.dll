@@ -1,0 +1,332 @@
+Installing into /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst from /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld
+Making install in m4
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/m4'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/m4'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/m4'
+Making install in include
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+Making install in vorbis
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include/vorbis'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include/vorbis'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/include/vorbis" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/include/vorbis"
+ /bin/install -c -m 644 'codec.h' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/include/vorbis/codec.h'
+ /bin/install -c -m 644 'vorbisfile.h' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/include/vorbis/vorbisfile.h'
+ /bin/install -c -m 644 'vorbisenc.h' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/include/vorbis/vorbisenc.h'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include/vorbis'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include/vorbis'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+Making install in vq
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/vq'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/vq'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/vq'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/vq'
+Making install in lib
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+Making install in modes
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/modes'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/modes'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/modes'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/modes'
+Making install in books
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+Making install in coupled
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/coupled'
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/coupled'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/coupled'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/coupled'
+Making install in uncoupled
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/uncoupled'
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/uncoupled'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/uncoupled'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/uncoupled'
+Making install in floor
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/floor'
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/floor'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/floor'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/floor'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+test -z "/mingw/lib" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib"
+ /bin/sh ../libtool   --mode=install /bin/install -c  'libvorbis.la' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbis.la'
+libtool: install: /bin/install -c .libs/libvorbis.dll.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbis.dll.a
+libtool: install: base_file=`basename libvorbis.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libvorbis.la'i; echo libvorbis-0.dll'`
+libtool: install:  dldir=/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/`dirname ../bin/libvorbis-0.dll`
+libtool: install:  test -d /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin || mkdir -p /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin
+libtool: install:  /bin/install -c .libs/libvorbis-0.dll /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbis-0.dll
+libtool: install:  chmod a+x /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbis-0.dll
+libtool: install:  if test -n '' && test -n 'strip --strip-unneeded'; then eval 'strip --strip-unneeded /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbis-0.dll' || exit 0; fi
+libtool: install: /bin/install -c .libs/libvorbis.lai /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbis.la
+libtool: install: /bin/install -c .libs/libvorbis.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbis.a
+libtool: install: chmod 644 /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbis.a
+libtool: install: ranlib /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbis.a
+libtool: install: warning: remember to run `libtool --finish /mingw/lib'
+ /bin/sh ../libtool   --mode=install /bin/install -c  'libvorbisfile.la' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisfile.la'
+libtool: install: /bin/install -c .libs/libvorbisfile.dll.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisfile.dll.a
+libtool: install: base_file=`basename libvorbisfile.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libvorbisfile.la'i; echo libvorbisfile-3.dll'`
+libtool: install:  dldir=/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/`dirname ../bin/libvorbisfile-3.dll`
+libtool: install:  test -d /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin || mkdir -p /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin
+libtool: install:  /bin/install -c .libs/libvorbisfile-3.dll /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbisfile-3.dll
+libtool: install:  chmod a+x /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbisfile-3.dll
+libtool: install:  if test -n '' && test -n 'strip --strip-unneeded'; then eval 'strip --strip-unneeded /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbisfile-3.dll' || exit 0; fi
+libtool: install: /bin/install -c .libs/libvorbisfile.lai /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisfile.la
+libtool: install: /bin/install -c .libs/libvorbisfile.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisfile.a
+libtool: install: chmod 644 /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisfile.a
+libtool: install: ranlib /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisfile.a
+libtool: install: warning: remember to run `libtool --finish /mingw/lib'
+ /bin/sh ../libtool   --mode=install /bin/install -c  'libvorbisenc.la' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisenc.la'
+libtool: install: /bin/install -c .libs/libvorbisenc.dll.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisenc.dll.a
+libtool: install: base_file=`basename libvorbisenc.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libvorbisenc.la'i; echo libvorbisenc-2.dll'`
+libtool: install:  dldir=/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/`dirname ../bin/libvorbisenc-2.dll`
+libtool: install:  test -d /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin || mkdir -p /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin
+libtool: install:  /bin/install -c .libs/libvorbisenc-2.dll /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbisenc-2.dll
+libtool: install:  chmod a+x /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbisenc-2.dll
+libtool: install:  if test -n '' && test -n 'strip --strip-unneeded'; then eval 'strip --strip-unneeded /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/../bin/libvorbisenc-2.dll' || exit 0; fi
+libtool: install: /bin/install -c .libs/libvorbisenc.lai /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisenc.la
+libtool: install: /bin/install -c .libs/libvorbisenc.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisenc.a
+libtool: install: chmod 644 /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisenc.a
+libtool: install: ranlib /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/libvorbisenc.a
+libtool: install: warning: remember to run `libtool --finish /mingw/lib'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+Making install in test
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/test'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/test'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/test'
+Making install in doc
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+Making install in libvorbis
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/libvorbis'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/libvorbis'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/share/doc/libvorbis-1.3.2/libvorbis" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis"
+ /bin/install -c -m 644 'index.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/index.html'
+ /bin/install -c -m 644 'reference.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/reference.html'
+ /bin/install -c -m 644 'style.css' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/style.css'
+ /bin/install -c -m 644 'vorbis_comment.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_comment.html'
+ /bin/install -c -m 644 'vorbis_info.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_info.html'
+ /bin/install -c -m 644 'vorbis_analysis_blockout.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_analysis_blockout.html'
+ /bin/install -c -m 644 'vorbis_analysis_buffer.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_analysis_buffer.html'
+ /bin/install -c -m 644 'vorbis_analysis_headerout.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_analysis_headerout.html'
+ /bin/install -c -m 644 'vorbis_analysis_init.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_analysis_init.html'
+ /bin/install -c -m 644 'vorbis_analysis_wrote.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_analysis_wrote.html'
+ /bin/install -c -m 644 'vorbis_analysis.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_analysis.html'
+ /bin/install -c -m 644 'vorbis_bitrate_addblock.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_bitrate_addblock.html'
+ /bin/install -c -m 644 'vorbis_bitrate_flushpacket.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_bitrate_flushpacket.html'
+ /bin/install -c -m 644 'vorbis_block_init.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_block_init.html'
+ /bin/install -c -m 644 'vorbis_block_clear.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_block_clear.html'
+ /bin/install -c -m 644 'vorbis_dsp_clear.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_dsp_clear.html'
+ /bin/install -c -m 644 'vorbis_granule_time.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_granule_time.html'
+ /bin/install -c -m 644 'vorbis_version_string.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_version_string.html'
+ /bin/install -c -m 644 'vorbis_info_blocksize.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_info_blocksize.html'
+ /bin/install -c -m 644 'vorbis_info_clear.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_info_clear.html'
+ /bin/install -c -m 644 'vorbis_info_init.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_info_init.html'
+ /bin/install -c -m 644 'vorbis_comment_add.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_comment_add.html'
+ /bin/install -c -m 644 'vorbis_comment_add_tag.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_comment_add_tag.html'
+ /bin/install -c -m 644 'vorbis_comment_clear.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_comment_clear.html'
+ /bin/install -c -m 644 'vorbis_comment_init.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_comment_init.html'
+ /bin/install -c -m 644 'vorbis_comment_query.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_comment_query.html'
+ /bin/install -c -m 644 'vorbis_comment_query_count.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_comment_query_count.html'
+ /bin/install -c -m 644 'vorbis_commentheader_out.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_commentheader_out.html'
+ /bin/install -c -m 644 'vorbis_packet_blocksize.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_packet_blocksize.html'
+ /bin/install -c -m 644 'vorbis_synthesis.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis.html'
+ /bin/install -c -m 644 'vorbis_synthesis_blockin.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_blockin.html'
+ /bin/install -c -m 644 'vorbis_synthesis_halfrate.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_halfrate.html'
+ /bin/install -c -m 644 'vorbis_synthesis_halfrate_p.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_halfrate_p.html'
+ /bin/install -c -m 644 'vorbis_synthesis_headerin.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_headerin.html'
+ /bin/install -c -m 644 'vorbis_synthesis_idheader.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_idheader.html'
+ /bin/install -c -m 644 'vorbis_synthesis_init.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_init.html'
+ /bin/install -c -m 644 'vorbis_synthesis_lapout.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_lapout.html'
+ /bin/install -c -m 644 'vorbis_synthesis_pcmout.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_pcmout.html'
+ /bin/install -c -m 644 'vorbis_synthesis_read.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_read.html'
+ /bin/install -c -m 644 'vorbis_synthesis_restart.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_restart.html'
+ /bin/install -c -m 644 'vorbis_synthesis_trackonly.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_synthesis_trackonly.html'
+ /bin/install -c -m 644 'vorbis_block.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_block.html'
+ /bin/install -c -m 644 'vorbis_dsp_state.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/vorbis_dsp_state.html'
+ /bin/install -c -m 644 'return.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/return.html'
+ /bin/install -c -m 644 'overview.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/libvorbis/overview.html'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/libvorbis'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/libvorbis'
+Making install in vorbisfile
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisfile'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisfile'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/share/doc/libvorbis-1.3.2/vorbisfile" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile"
+ /bin/install -c -m 644 'OggVorbis_File.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/OggVorbis_File.html'
+ /bin/install -c -m 644 'callbacks.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/callbacks.html'
+ /bin/install -c -m 644 'chaining_example_c.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/chaining_example_c.html'
+ /bin/install -c -m 644 'chainingexample.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/chainingexample.html'
+ /bin/install -c -m 644 'crosslap.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/crosslap.html'
+ /bin/install -c -m 644 'datastructures.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/datastructures.html'
+ /bin/install -c -m 644 'decoding.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/decoding.html'
+ /bin/install -c -m 644 'example.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/example.html'
+ /bin/install -c -m 644 'exampleindex.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/exampleindex.html'
+ /bin/install -c -m 644 'fileinfo.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/fileinfo.html'
+ /bin/install -c -m 644 'index.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/index.html'
+ /bin/install -c -m 644 'initialization.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/initialization.html'
+ /bin/install -c -m 644 'ov_bitrate.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_bitrate.html'
+ /bin/install -c -m 644 'ov_bitrate_instant.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_bitrate_instant.html'
+ /bin/install -c -m 644 'ov_callbacks.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_callbacks.html'
+ /bin/install -c -m 644 'ov_clear.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_clear.html'
+ /bin/install -c -m 644 'ov_comment.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_comment.html'
+ /bin/install -c -m 644 'ov_crosslap.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_crosslap.html'
+ /bin/install -c -m 644 'ov_fopen.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_fopen.html'
+ /bin/install -c -m 644 'ov_info.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_info.html'
+ /bin/install -c -m 644 'ov_open.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_open.html'
+ /bin/install -c -m 644 'ov_open_callbacks.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_open_callbacks.html'
+ /bin/install -c -m 644 'ov_pcm_seek.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_pcm_seek.html'
+ /bin/install -c -m 644 'ov_pcm_seek_lap.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_pcm_seek_lap.html'
+ /bin/install -c -m 644 'ov_pcm_seek_page.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_pcm_seek_page.html'
+ /bin/install -c -m 644 'ov_pcm_seek_page_lap.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_pcm_seek_page_lap.html'
+ /bin/install -c -m 644 'ov_pcm_tell.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_pcm_tell.html'
+ /bin/install -c -m 644 'ov_pcm_total.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_pcm_total.html'
+ /bin/install -c -m 644 'ov_raw_seek.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_raw_seek.html'
+ /bin/install -c -m 644 'ov_raw_seek_lap.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_raw_seek_lap.html'
+ /bin/install -c -m 644 'ov_raw_tell.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_raw_tell.html'
+ /bin/install -c -m 644 'ov_raw_total.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_raw_total.html'
+ /bin/install -c -m 644 'ov_read.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_read.html'
+ /bin/install -c -m 644 'ov_read_float.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_read_float.html'
+ /bin/install -c -m 644 'ov_read_filter.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_read_filter.html'
+ /bin/install -c -m 644 'ov_seekable.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_seekable.html'
+ /bin/install -c -m 644 'ov_serialnumber.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_serialnumber.html'
+ /bin/install -c -m 644 'ov_streams.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_streams.html'
+ /bin/install -c -m 644 'ov_test.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_test.html'
+ /bin/install -c -m 644 'ov_test_callbacks.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_test_callbacks.html'
+ /bin/install -c -m 644 'ov_test_open.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_test_open.html'
+ /bin/install -c -m 644 'ov_time_seek.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_time_seek.html'
+ /bin/install -c -m 644 'ov_time_seek_lap.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_time_seek_lap.html'
+ /bin/install -c -m 644 'ov_time_seek_page.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_time_seek_page.html'
+ /bin/install -c -m 644 'ov_time_seek_page_lap.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_time_seek_page_lap.html'
+ /bin/install -c -m 644 'ov_time_tell.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_time_tell.html'
+ /bin/install -c -m 644 'ov_time_total.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/ov_time_total.html'
+ /bin/install -c -m 644 'overview.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/overview.html'
+ /bin/install -c -m 644 'reference.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/reference.html'
+ /bin/install -c -m 644 'seekexample.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/seekexample.html'
+ /bin/install -c -m 644 'seeking.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/seeking.html'
+ /bin/install -c -m 644 'seeking_example_c.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/seeking_example_c.html'
+ /bin/install -c -m 644 'seeking_test_c.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/seeking_test_c.html'
+ /bin/install -c -m 644 'seekingexample.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/seekingexample.html'
+ /bin/install -c -m 644 'style.css' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/style.css'
+ /bin/install -c -m 644 'threads.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/threads.html'
+ /bin/install -c -m 644 'vorbisfile_example_c.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisfile/vorbisfile_example_c.html'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisfile'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisfile'
+Making install in vorbisenc
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisenc'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisenc'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/share/doc/libvorbis-1.3.2/vorbisenc" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc"
+ /bin/install -c -m 644 'changes.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/changes.html'
+ /bin/install -c -m 644 'examples.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/examples.html'
+ /bin/install -c -m 644 'index.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/index.html'
+ /bin/install -c -m 644 'ovectl_ratemanage2_arg.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/ovectl_ratemanage2_arg.html'
+ /bin/install -c -m 644 'ovectl_ratemanage_arg.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/ovectl_ratemanage_arg.html'
+ /bin/install -c -m 644 'overview.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/overview.html'
+ /bin/install -c -m 644 'reference.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/reference.html'
+ /bin/install -c -m 644 'style.css' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/style.css'
+ /bin/install -c -m 644 'vorbis_encode_ctl.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/vorbis_encode_ctl.html'
+ /bin/install -c -m 644 'vorbis_encode_init.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/vorbis_encode_init.html'
+ /bin/install -c -m 644 'vorbis_encode_setup_init.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/vorbis_encode_setup_init.html'
+ /bin/install -c -m 644 'vorbis_encode_setup_managed.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/vorbis_encode_setup_managed.html'
+ /bin/install -c -m 644 'vorbis_encode_setup_vbr.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/vorbis_encode_setup_vbr.html'
+ /bin/install -c -m 644 'vorbis_encode_init_vbr.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisenc/vorbis_encode_init_vbr.html'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisenc'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisenc'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/install-sh -d /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2
+if test -d vorbis; then \
+	  for dir in vorbis/*; do \
+	    if test -d $dir; then \
+	      b=`basename $dir`; \
+	      /bin/sh /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/install-sh -d /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/$b; \
+	      for f in $dir/*; do \
+		/bin/install -c -m 644 $f /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/$b; \
+	      done \
+	    fi \
+	  done \
+	fi
+test -z "/mingw/share/doc/libvorbis-1.3.2" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2"
+ /bin/install -c -m 644 'rfc5215.xml' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/rfc5215.xml'
+ /bin/install -c -m 644 'rfc5215.txt' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/rfc5215.txt'
+ /bin/install -c -m 644 'eightphase.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/eightphase.png'
+ /bin/install -c -m 644 'evenlsp.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/evenlsp.png'
+ /bin/install -c -m 644 'fish_xiph_org.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/fish_xiph_org.png'
+ /bin/install -c -m 644 'floor1_inverse_dB_table.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/floor1_inverse_dB_table.html'
+ /bin/install -c -m 644 'floorval.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/floorval.png'
+ /bin/install -c -m 644 'fourphase.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/fourphase.png'
+ /bin/install -c -m 644 'framing.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/framing.html'
+ /bin/install -c -m 644 'helper.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/helper.html'
+ /bin/install -c -m 644 'index.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/index.html'
+ /bin/install -c -m 644 'lspmap.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/lspmap.png'
+ /bin/install -c -m 644 'oddlsp.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/oddlsp.png'
+ /bin/install -c -m 644 'oggstream.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/oggstream.html'
+ /bin/install -c -m 644 'programming.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/programming.html'
+ /bin/install -c -m 644 'squarepolar.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/squarepolar.png'
+ /bin/install -c -m 644 'stereo.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/stereo.html'
+ /bin/install -c -m 644 'stream.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/stream.png'
+ /bin/install -c -m 644 'v-comment.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/v-comment.html'
+ /bin/install -c -m 644 'vorbis-clip.txt' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbis-clip.txt'
+ /bin/install -c -m 644 'vorbis-errors.txt' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbis-errors.txt'
+ /bin/install -c -m 644 'vorbis-fidelity.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbis-fidelity.html'
+ /bin/install -c -m 644 'vorbis.html' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbis.html'
+ /bin/install -c -m 644 'vorbisword2.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/vorbisword2.png'
+ /bin/install -c -m 644 'wait.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/wait.png'
+ /bin/install -c -m 644 'white-xifish.png' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/white-xifish.png'
+ /bin/install -c -m 644 'doxygen-build.stamp' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/doc/libvorbis-1.3.2/doxygen-build.stamp'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+Making install in examples
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/examples'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/examples'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/examples'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/examples'
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/share/aclocal" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/aclocal"
+ /bin/install -c -m 644 'vorbis.m4' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/share/aclocal/vorbis.m4'
+test -z "/mingw/lib/pkgconfig" || /bin/mkdir -p "/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/pkgconfig"
+ /bin/install -c -m 644 'vorbis.pc' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/pkgconfig/vorbis.pc'
+ /bin/install -c -m 644 'vorbisenc.pc' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/pkgconfig/vorbisenc.pc'
+ /bin/install -c -m 644 'vorbisfile.pc' '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/inst/mingw/lib/pkgconfig/vorbisfile.pc'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'

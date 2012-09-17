@@ -1,0 +1,63 @@
+(sed -e '1s|.*|/*|' -e '1b' -e '$s|.*| */|' -e '$b'  \
+		-e 's/^.*/ *&/' /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/COPYRIGHT; echo;  \
+	echo "# ifdef __cplusplus";  \
+	echo 'extern "C" {';  \
+	echo "# endif"; echo;  \
+	if [ ".-DFPM_INTEL" != "." ]; then  \
+		echo ".-DFPM_INTEL" | sed -e 's|^\.-D|# define |'; echo;  \
+	fi;  \
+	sed -ne 's/^# *define  *\(HAVE_.*_ASM\).*/# define \1/p'  \
+		config.h; echo;  \
+	sed -ne 's/^# *define  *OPT_\(SPEED\|ACCURACY\).*/# define OPT_\1/p'  \
+		config.h; echo;  \
+	sed -ne 's/^# *define  *\(SIZEOF_.*\)/# define \1/p'  \
+		config.h; echo;  \
+	for header in version.h fixed.h bit.h timer.h stream.h frame.h synth.h decoder.h; do  \
+		echo;  \
+		sed -n -f /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/mad.h.sed /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/$header;  \
+	done; echo;  \
+	echo "# ifdef __cplusplus";  \
+	echo '}';  \
+	echo "# endif") >mad.h
+make  all-recursive
+make[1]: Entering directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+make[2]: Entering directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT version.lo -MD -MP -MF .deps/version.Tpo -c -o version.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/version.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT version.lo -MD -MP -MF .deps/version.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/version.c  -DDLL_EXPORT -DPIC -o .libs/version.o
+mv -f .deps/version.Tpo .deps/version.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT fixed.lo -MD -MP -MF .deps/fixed.Tpo -c -o fixed.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/fixed.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT fixed.lo -MD -MP -MF .deps/fixed.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/fixed.c  -DDLL_EXPORT -DPIC -o .libs/fixed.o
+mv -f .deps/fixed.Tpo .deps/fixed.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT bit.lo -MD -MP -MF .deps/bit.Tpo -c -o bit.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/bit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT bit.lo -MD -MP -MF .deps/bit.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/bit.c  -DDLL_EXPORT -DPIC -o .libs/bit.o
+mv -f .deps/bit.Tpo .deps/bit.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c -o timer.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/timer.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/timer.c  -DDLL_EXPORT -DPIC -o .libs/timer.o
+mv -f .deps/timer.Tpo .deps/timer.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT stream.lo -MD -MP -MF .deps/stream.Tpo -c -o stream.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/stream.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT stream.lo -MD -MP -MF .deps/stream.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/stream.c  -DDLL_EXPORT -DPIC -o .libs/stream.o
+mv -f .deps/stream.Tpo .deps/stream.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT frame.lo -MD -MP -MF .deps/frame.Tpo -c -o frame.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/frame.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT frame.lo -MD -MP -MF .deps/frame.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/frame.c  -DDLL_EXPORT -DPIC -o .libs/frame.o
+mv -f .deps/frame.Tpo .deps/frame.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT synth.lo -MD -MP -MF .deps/synth.Tpo -c -o synth.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/synth.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT synth.lo -MD -MP -MF .deps/synth.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/synth.c  -DDLL_EXPORT -DPIC -o .libs/synth.o
+mv -f .deps/synth.Tpo .deps/synth.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT decoder.lo -MD -MP -MF .deps/decoder.Tpo -c -o decoder.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/decoder.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT decoder.lo -MD -MP -MF .deps/decoder.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/decoder.c  -DDLL_EXPORT -DPIC -o .libs/decoder.o
+mv -f .deps/decoder.Tpo .deps/decoder.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT layer12.lo -MD -MP -MF .deps/layer12.Tpo -c -o layer12.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer12.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT layer12.lo -MD -MP -MF .deps/layer12.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer12.c  -DDLL_EXPORT -DPIC -o .libs/layer12.o
+mv -f .deps/layer12.Tpo .deps/layer12.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT layer3.lo -MD -MP -MF .deps/layer3.Tpo -c -o layer3.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer3.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT layer3.lo -MD -MP -MF .deps/layer3.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer3.c  -DDLL_EXPORT -DPIC -o .libs/layer3.o
+mv -f .deps/layer3.Tpo .deps/layer3.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK    -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT huffman.lo -MD -MP -MF .deps/huffman.Tpo -c -o huffman.lo /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/huffman.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b -DFPM_INTEL -DASO_ZEROCHECK -Wall -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -MT huffman.lo -MD -MP -MF .deps/huffman.Tpo -c /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/huffman.c  -DDLL_EXPORT -DPIC -o .libs/huffman.o
+mv -f .deps/huffman.Tpo .deps/huffman.Plo
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -Wall  -march=i686 -O -fforce-addr -fthread-jumps -fcse-follow-jumps -fcse-skip-blocks -fexpensive-optimizations -fregmove -fschedule-insns2 -fstrength-reduce -version-info 2:1:2 -no-undefined  -o libmad.la -rpath /mingw/lib version.lo fixed.lo bit.lo timer.lo stream.lo frame.lo synth.lo decoder.lo layer12.lo layer3.lo huffman.lo    
+libtool: link: gcc -shared  .libs/version.o .libs/fixed.o .libs/bit.o .libs/timer.o .libs/stream.o .libs/frame.o .libs/synth.o .libs/decoder.o .libs/layer12.o .libs/layer3.o .libs/huffman.o    -march=i686 -O   -o .libs/libmad-0.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libmad.dll.a
+Creating library file: .libs/libmad.dll.a
+libtool: link: ( cd ".libs" && rm -f "libmad.la" && cp -p "../libmad.la" "libmad.la" )
+make[2]: Leaving directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+make[1]: Leaving directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'

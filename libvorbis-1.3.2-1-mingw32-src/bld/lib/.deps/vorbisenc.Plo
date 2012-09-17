@@ -1,0 +1,124 @@
+vorbisenc.lo: vorbisenc.c \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/codec.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ogg/ogg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ogg/os_types.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisenc.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/codec.h \
+ codec_internal.h envelope.h mdct.h codebook.h psy.h smallft.h backends.h \
+ bitrate.h os.h ../config.h misc.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/malloc.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/memory.h \
+ highlevel.h modes/setup_44.h modes/floor_all.h backends.h \
+ books/floor/floor_books.h codebook.h modes/residue_44.h \
+ books/coupled/res_books_stereo.h modes/psych_44.h modes/setup_44u.h \
+ modes/residue_44u.h books/uncoupled/res_books_uncoupled.h \
+ modes/setup_44p51.h modes/residue_44p51.h books/coupled/res_books_51.h \
+ modes/setup_32.h modes/setup_8.h modes/psych_8.h modes/residue_8.h \
+ modes/setup_11.h modes/psych_11.h modes/setup_16.h modes/psych_16.h \
+ modes/residue_16.h modes/setup_22.h modes/setup_X.h
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/codec.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ogg/ogg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ogg/os_types.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisenc.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/codec.h:
+
+codec_internal.h:
+
+envelope.h:
+
+mdct.h:
+
+codebook.h:
+
+psy.h:
+
+smallft.h:
+
+backends.h:
+
+bitrate.h:
+
+os.h:
+
+../config.h:
+
+misc.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/malloc.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/memory.h:
+
+highlevel.h:
+
+modes/setup_44.h:
+
+modes/floor_all.h:
+
+backends.h:
+
+books/floor/floor_books.h:
+
+codebook.h:
+
+modes/residue_44.h:
+
+books/coupled/res_books_stereo.h:
+
+modes/psych_44.h:
+
+modes/setup_44u.h:
+
+modes/residue_44u.h:
+
+books/uncoupled/res_books_uncoupled.h:
+
+modes/setup_44p51.h:
+
+modes/residue_44p51.h:
+
+books/coupled/res_books_51.h:
+
+modes/setup_32.h:
+
+modes/setup_8.h:
+
+modes/psych_8.h:
+
+modes/residue_8.h:
+
+modes/setup_11.h:
+
+modes/psych_11.h:
+
+modes/setup_16.h:
+
+modes/psych_16.h:
+
+modes/residue_16.h:
+
+modes/setup_22.h:
+
+modes/setup_X.h:

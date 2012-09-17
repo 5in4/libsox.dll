@@ -1,0 +1,44 @@
+libwavpack_la-bits.lo: \
+ C:/MinGW/msys/1.0/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/src/bits.c \
+ C:/MinGW/msys/1.0/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/src/wavpack_local.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/stat.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h
+
+C:/MinGW/msys/1.0/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/src/wavpack_local.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/stat.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h:

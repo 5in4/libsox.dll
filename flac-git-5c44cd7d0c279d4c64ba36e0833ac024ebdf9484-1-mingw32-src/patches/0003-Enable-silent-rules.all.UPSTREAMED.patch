@@ -1,0 +1,10 @@
+--- flac-1.2.2-rc1/configure.ac.orig	2012-02-26 17:29:25 +0400
++++ flac-1.2.2-rc1/configure.ac	2012-02-26 17:31:16 +0400
+@@ -21,6 +21,7 @@
+ AC_INIT([flac], [1.2.1])
+ AC_CONFIG_SRCDIR([src/flac/main.c])
+ AM_INIT_AUTOMAKE
++AM_SILENT_RULES([yes])
+ 
+ # Don't automagically regenerate autoconf/automake generated files unless
+ # explicitly requested.  Eases autobuilding -mdz

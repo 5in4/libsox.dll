@@ -1,0 +1,48 @@
+mingw libogg
+========================================================================
+WavPack is a completely open audio compression format providing lossless,
+high-quality lossy, and a unique hybrid compression mode. Although the
+technology is loosely based on previous versions of WavPack, the new
+version 4 format has been designed from the ground up to offer unparalleled
+performance and functionality.
+
+Requires:
+  mingw32-gcc
+  mingw32-gettext
+  mingw32-zlib
+
+Canonical homepage:
+  http://www.wavpack.com/index.html
+
+Canonical download:
+  http://www.wavpack.com/downloads.html
+
+License:
+  Revised BSD
+
+Language:
+  C
+
+========================================================================
+
+Build instructions:
+  unpack wavpack-4.60.1-1-mingw32-src.tar.lzma
+  ./pkgbuild.sh
+
+This will create:
+  wavpack-4.60.1-1-mingw32-src.tar.lzma
+  libwavpack-4.60.1-1-mingw32-dll-0.tar.lzma
+  wavpack-4.60.1-1-mingw32-dev.tar.lzma
+  wavpack-4.60.1-1-mingw32-doc.tar.lzma
+  wavpack-4.60.1-1-mingw32-lic.tar.lzma
+
+========================================================================
+
+Test suite results
+This section of this document is updated with each new release.
+No history is maintained here.
+
+All tests ok.
+
+----------  wavpack-4.60.1-1 -- 2012 Apr 10 -----------
+* First release of wavpack for mingw using new packaging standard. 

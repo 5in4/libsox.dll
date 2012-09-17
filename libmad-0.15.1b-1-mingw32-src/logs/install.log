@@ -1,0 +1,22 @@
+Installing into /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst from /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld
+make  install-recursive
+make[1]: Entering directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+make[2]: Entering directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+make[3]: Entering directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+test -z "/mingw/lib" || /bin/mkdir -p "/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib"
+ /bin/sh ./libtool   --mode=install /bin/install -c   libmad.la '/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib'
+libtool: install: /bin/install -c .libs/libmad.dll.a /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/libmad.dll.a
+libtool: install: base_file=`basename libmad.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libmad.la'i; echo libmad-0.dll'`
+libtool: install:  dldir=/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/`dirname ../bin/libmad-0.dll`
+libtool: install:  test -d /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/../bin || mkdir -p /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/../bin
+libtool: install:  /bin/install -c .libs/libmad-0.dll /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/../bin/libmad-0.dll
+libtool: install:  chmod a+x /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/../bin/libmad-0.dll
+libtool: install:  if test -n '' && test -n 'strip --strip-unneeded'; then eval 'strip --strip-unneeded /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/../bin/libmad-0.dll' || exit 0; fi
+libtool: install: /bin/install -c .libs/libmad.lai /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/lib/libmad.la
+libtool: install: warning: remember to run `libtool --finish /mingw/lib'
+test -z "/mingw/include" || /bin/mkdir -p "/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/include"
+ /bin/install -c -m 644 mad.h '/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/inst/mingw/include'
+make[3]: Leaving directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+make[2]: Leaving directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'
+make[1]: Leaving directory `/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/bld'

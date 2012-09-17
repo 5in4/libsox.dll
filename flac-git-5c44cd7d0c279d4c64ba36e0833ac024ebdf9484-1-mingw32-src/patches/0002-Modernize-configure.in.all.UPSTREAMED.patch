@@ -1,0 +1,14 @@
+--- flac-1.2.2-rc1/configure.ac	2012-01-03 03:30:16 +0400
++++ flac-1.2.2-rc1/configure.ac	2012-02-26 17:29:25 +0400
+@@ -18,8 +18,9 @@
+ # NOTE that for many of the AM_CONDITIONALs we use the prefix FLaC__
+ # instead of FLAC__ since autoconf triggers off 'AC_' in strings
+ 
+-AC_INIT(src/flac/main.c)
+-AM_INIT_AUTOMAKE(flac, 1.2.1)
++AC_INIT([flac], [1.2.1])
++AC_CONFIG_SRCDIR([src/flac/main.c])
++AM_INIT_AUTOMAKE
+ 
+ # Don't automagically regenerate autoconf/automake generated files unless
+ # explicitly requested.  Eases autobuilding -mdz

@@ -1,0 +1,17 @@
+wavpack-md5.o: \
+ C:/MinGW/msys/1.0/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/cli/md5.c \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/memory.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/cli/md5.h
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/memory.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/cli/md5.h:

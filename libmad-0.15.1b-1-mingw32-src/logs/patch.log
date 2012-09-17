@@ -1,0 +1,6 @@
+Patching in /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b from patchfiles /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/patches/0001-no-undefined.mingw32.patch
+/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/patches/0002-no-fforce-mem.all.patch
+Applying /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/patches/0001-no-undefined.mingw32.patch
+patching file Makefile.am
+Applying /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/patches/0002-no-fforce-mem.all.patch
+patching file configure.ac

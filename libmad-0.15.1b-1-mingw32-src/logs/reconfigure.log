@@ -1,0 +1,20 @@
+Reconfiguring in /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b
+aclocal: macro `_LT_DECL_SED' required but not defined
+aclocal: macro `_LT_FUNC_STRIPNAME_CNF' required but not defined
+autoreconf-2.68: aclocal failed with exit status: 1
+Reconfiguring in /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b
+aclocal: macro `_LT_DECL_SED' required but not defined
+aclocal: macro `_LT_FUNC_STRIPNAME_CNF' required but not defined
+autoreconf-2.68: aclocal failed with exit status: 1
+Reconfiguring in /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+Reconfiguring in /home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.

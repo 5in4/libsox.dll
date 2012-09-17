@@ -1,0 +1,57 @@
+mingw flac
+========================================================================
+FLAC stands for Free Lossless Audio Codec, an audio format similar to MP3,
+but lossless, meaning that audio is compressed in FLAC without any loss
+in quality. This is similar to how Zip works, except with FLAC you will get
+much better compression because it is designed specifically for audio, and
+you can play back compressed FLAC files in your favorite player (or your
+car or home stereo, see supported devices) just like you would an MP3 file.
+
+FLAC stands out as the fastest and most widely supported lossless audio
+codec, and the only one that at once is non-proprietary, is unencumbered
+by patents, has an open-source reference implementation, has a well
+documented format and API, and has several other independent
+implementations.
+
+Requires:
+  mingw32-gcc
+  mingw32-gettext
+  mingw32-zlib
+
+Canonical homepage:
+  http://flac.sourceforge.net/
+
+Canonical download:
+  git://git.xiph.org/flac.git
+
+License:
+  Xiph
+
+Language:
+  C
+
+========================================================================
+
+Build instructions:
+  unpack flac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-src.tar.lzma
+  ./pkgbuild.sh
+
+This will create:
+  flac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-src.tar.lzma
+  flac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-bin.tar.lzma
+  libflac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-dll-8.tar.lzma
+  libflac++-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-dll-6.tar.lzma
+  flac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-dev.tar.lzma
+  flac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-doc.tar.lzma
+  flac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1-mingw32-lic.tar.lzma
+
+========================================================================
+
+Test suite results
+This section of this document is updated with each new release.
+No history is maintained here.
+
+all tests succeeded
+
+----------  flac-git-5c44cd7d0c279d4c64ba36e0833ac024ebdf9484-1 -- Wed Apr  4 08:06:18 RST 2012 -----------
+First release of flac for mingw using new packaging standard. 

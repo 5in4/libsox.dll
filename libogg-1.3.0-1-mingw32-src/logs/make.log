@@ -1,0 +1,51 @@
+make  all-recursive
+make[1]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld'
+Making all in src
+make[2]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/src'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include    -O20 -fsigned-char  -march=i686 -MT framing.lo -MD -MP -MF .deps/framing.Tpo -c -o framing.lo framing.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include -O20 -fsigned-char -march=i686 -MT framing.lo -MD -MP -MF .deps/framing.Tpo -c framing.c  -DDLL_EXPORT -DPIC -o .libs/framing.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include -O20 -fsigned-char -march=i686 -MT framing.lo -MD -MP -MF .deps/framing.Tpo -c framing.c -o framing.o >/dev/null 2>&1
+mv -f .deps/framing.Tpo .deps/framing.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include    -O20 -fsigned-char  -march=i686 -MT bitwise.lo -MD -MP -MF .deps/bitwise.Tpo -c -o bitwise.lo bitwise.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include -O20 -fsigned-char -march=i686 -MT bitwise.lo -MD -MP -MF .deps/bitwise.Tpo -c bitwise.c  -DDLL_EXPORT -DPIC -o .libs/bitwise.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include -O20 -fsigned-char -march=i686 -MT bitwise.lo -MD -MP -MF .deps/bitwise.Tpo -c bitwise.c -o bitwise.o >/dev/null 2>&1
+mv -f .deps/bitwise.Tpo .deps/bitwise.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -fsigned-char  -march=i686 -no-undefined -version-info 8:0:8  -o libogg.la -rpath /mingw/lib framing.lo bitwise.lo  
+libtool: link: gcc -shared  .libs/framing.o .libs/bitwise.o    -O20 -march=i686   -o .libs/libogg-0.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libogg.dll.a
+Creating library file: .libs/libogg.dll.a
+libtool: link: ar cru .libs/libogg.a  framing.o bitwise.o
+libtool: link: ranlib .libs/libogg.a
+libtool: link: ( cd ".libs" && rm -f "libogg.la" && cp -p "../libogg.la" "libogg.la" )
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include   -D_V_SELFTEST -O20 -fsigned-char  -march=i686 -MT test_bitwise-bitwise.o -MD -MP -MF .deps/test_bitwise-bitwise.Tpo -c -o test_bitwise-bitwise.o `test -f 'bitwise.c' || echo '/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src/'`bitwise.c
+mv -f .deps/test_bitwise-bitwise.Tpo .deps/test_bitwise-bitwise.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -D_V_SELFTEST -O20 -fsigned-char  -march=i686   -o test_bitwise.exe test_bitwise-bitwise.o  
+libtool: link: gcc -D_V_SELFTEST -O20 -fsigned-char -march=i686 -o .libs/test_bitwise.exe test_bitwise-bitwise.o 
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src -I.. -I/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/include -I../include   -D_V_SELFTEST -O20 -fsigned-char  -march=i686 -MT test_framing-framing.o -MD -MP -MF .deps/test_framing-framing.Tpo -c -o test_framing-framing.o `test -f 'framing.c' || echo '/home/Dominik_2/libogg-1.3.0-1-mingw32-src/libogg-1.3.0/src/'`framing.c
+mv -f .deps/test_framing-framing.Tpo .deps/test_framing-framing.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -D_V_SELFTEST -O20 -fsigned-char  -march=i686   -o test_framing.exe test_framing-framing.o  
+libtool: link: gcc -D_V_SELFTEST -O20 -fsigned-char -march=i686 -o .libs/test_framing.exe test_framing-framing.o 
+make[2]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/src'
+Making all in include
+make[2]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/include'
+Making all in ogg
+make[3]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/include/ogg'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/include/ogg'
+make[3]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/include'
+make[2]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/include'
+Making all in doc
+make[2]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/doc'
+Making all in libogg
+make[3]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/doc/libogg'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/doc/libogg'
+make[3]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/doc'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/doc'
+make[2]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld/doc'
+make[2]: Entering directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld'
+make[1]: Leaving directory `/home/Dominik_2/libogg-1.3.0-1-mingw32-src/bld'

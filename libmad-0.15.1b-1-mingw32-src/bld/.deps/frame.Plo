@@ -1,0 +1,38 @@
+frame.lo: \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/frame.c \
+ config.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/global.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/bit.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/stream.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/frame.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/fixed.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/timer.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer12.h \
+ C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer3.h
+
+config.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/global.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/bit.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/stream.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/frame.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/fixed.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/timer.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer12.h:
+
+C:/MinGW/msys/1.0/home/Dominik_2/libmad-0.15.1b-1-mingw32-src/libmad-0.15.1b/layer3.h:

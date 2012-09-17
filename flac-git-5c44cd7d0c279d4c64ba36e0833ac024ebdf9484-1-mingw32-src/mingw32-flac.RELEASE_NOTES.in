@@ -1,0 +1,57 @@
+mingw flac
+========================================================================
+FLAC stands for Free Lossless Audio Codec, an audio format similar to MP3,
+but lossless, meaning that audio is compressed in FLAC without any loss
+in quality. This is similar to how Zip works, except with FLAC you will get
+much better compression because it is designed specifically for audio, and
+you can play back compressed FLAC files in your favorite player (or your
+car or home stereo, see supported devices) just like you would an MP3 file.
+
+FLAC stands out as the fastest and most widely supported lossless audio
+codec, and the only one that at once is non-proprietary, is unencumbered
+by patents, has an open-source reference implementation, has a well
+documented format and API, and has several other independent
+implementations.
+
+Requires:
+  mingw32-gcc
+  mingw32-gettext
+  mingw32-zlib
+
+Canonical homepage:
+  http://flac.sourceforge.net/
+
+Canonical download:
+  git://git.xiph.org/flac.git
+
+License:
+  Xiph
+
+Language:
+  C
+
+========================================================================
+
+Build instructions:
+  unpack flac-${ver}-${rev}-mingw32-src.tar.lzma
+  ./pkgbuild.sh
+
+This will create:
+  flac-${ver}-${rev}-mingw32-src.tar.lzma
+  flac-${ver}-${rev}-mingw32-bin.tar.lzma
+  libflac-${ver}-${rev}-mingw32-dll-${dllver}.tar.lzma
+  libflac++-${ver}-${rev}-mingw32-dll-${dllvercpp}.tar.lzma
+  flac-${ver}-${rev}-mingw32-dev.tar.lzma
+  flac-${ver}-${rev}-mingw32-doc.tar.lzma
+  flac-${ver}-${rev}-mingw32-lic.tar.lzma
+
+========================================================================
+
+Test suite results
+This section of this document is updated with each new release.
+No history is maintained here.
+
+all tests succeeded
+
+----------  flac-${ver}-${rev} -- ${date} -----------
+${changelog}

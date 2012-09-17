@@ -1,0 +1,11 @@
+--- flac-1.2.2-alpha1/Makefile.am.orig	2012-01-03 03:49:16 +0400
++++ flac-1.2.2-alpha1/Makefile.am	2012-01-03 03:49:20 +0400
+@@ -28,7 +28,7 @@
+ # distclean: remove everything except what goes in the distribution
+ #
+ 
+-AUTOMAKE_OPTIONS = foreign 1.7
++AUTOMAKE_OPTIONS = foreign 1.11
+ 
+ SUBDIRS = doc include m4 man src examples test build obj
+ 

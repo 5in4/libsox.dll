@@ -1,0 +1,237 @@
+make  all-recursive
+make[1]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'
+Making all in m4
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/m4'
+Making all in include
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+Making all in vorbis
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include/vorbis'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include/vorbis'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/include'
+Making all in vq
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/vq'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/vq'
+Making all in lib
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+Making all in modes
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/modes'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/modes'
+Making all in books
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+Making all in coupled
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/coupled'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/coupled'
+Making all in uncoupled
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/uncoupled'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/uncoupled'
+Making all in floor
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/floor'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books/floor'
+make[4]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/books'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT mdct.lo -MD -MP -MF .deps/mdct.Tpo -c -o mdct.lo mdct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT mdct.lo -MD -MP -MF .deps/mdct.Tpo -c mdct.c  -DDLL_EXPORT -DPIC -o .libs/mdct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT mdct.lo -MD -MP -MF .deps/mdct.Tpo -c mdct.c -o mdct.o >/dev/null 2>&1
+mv -f .deps/mdct.Tpo .deps/mdct.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT smallft.lo -MD -MP -MF .deps/smallft.Tpo -c -o smallft.lo smallft.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT smallft.lo -MD -MP -MF .deps/smallft.Tpo -c smallft.c  -DDLL_EXPORT -DPIC -o .libs/smallft.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT smallft.lo -MD -MP -MF .deps/smallft.Tpo -c smallft.c -o smallft.o >/dev/null 2>&1
+mv -f .deps/smallft.Tpo .deps/smallft.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT block.lo -MD -MP -MF .deps/block.Tpo -c -o block.lo block.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT block.lo -MD -MP -MF .deps/block.Tpo -c block.c  -DDLL_EXPORT -DPIC -o .libs/block.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT block.lo -MD -MP -MF .deps/block.Tpo -c block.c -o block.o >/dev/null 2>&1
+mv -f .deps/block.Tpo .deps/block.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT envelope.lo -MD -MP -MF .deps/envelope.Tpo -c -o envelope.lo envelope.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT envelope.lo -MD -MP -MF .deps/envelope.Tpo -c envelope.c  -DDLL_EXPORT -DPIC -o .libs/envelope.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT envelope.lo -MD -MP -MF .deps/envelope.Tpo -c envelope.c -o envelope.o >/dev/null 2>&1
+mv -f .deps/envelope.Tpo .deps/envelope.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT window.lo -MD -MP -MF .deps/window.Tpo -c -o window.lo window.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT window.lo -MD -MP -MF .deps/window.Tpo -c window.c  -DDLL_EXPORT -DPIC -o .libs/window.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT window.lo -MD -MP -MF .deps/window.Tpo -c window.c -o window.o >/dev/null 2>&1
+mv -f .deps/window.Tpo .deps/window.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT lsp.lo -MD -MP -MF .deps/lsp.Tpo -c -o lsp.lo lsp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT lsp.lo -MD -MP -MF .deps/lsp.Tpo -c lsp.c  -DDLL_EXPORT -DPIC -o .libs/lsp.o
+lsp.c: In Funktion »Laguerre_With_Deflation«:
+lsp.c:312:10: Warnung: Variable »lastdelta« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT lsp.lo -MD -MP -MF .deps/lsp.Tpo -c lsp.c -o lsp.o >/dev/null 2>&1
+mv -f .deps/lsp.Tpo .deps/lsp.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT lpc.lo -MD -MP -MF .deps/lpc.Tpo -c -o lpc.lo lpc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT lpc.lo -MD -MP -MF .deps/lpc.Tpo -c lpc.c  -DDLL_EXPORT -DPIC -o .libs/lpc.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT lpc.lo -MD -MP -MF .deps/lpc.Tpo -c lpc.c -o lpc.o >/dev/null 2>&1
+mv -f .deps/lpc.Tpo .deps/lpc.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT analysis.lo -MD -MP -MF .deps/analysis.Tpo -c -o analysis.lo analysis.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT analysis.lo -MD -MP -MF .deps/analysis.Tpo -c analysis.c  -DDLL_EXPORT -DPIC -o .libs/analysis.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT analysis.lo -MD -MP -MF .deps/analysis.Tpo -c analysis.c -o analysis.o >/dev/null 2>&1
+mv -f .deps/analysis.Tpo .deps/analysis.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT synthesis.lo -MD -MP -MF .deps/synthesis.Tpo -c -o synthesis.lo synthesis.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT synthesis.lo -MD -MP -MF .deps/synthesis.Tpo -c synthesis.c  -DDLL_EXPORT -DPIC -o .libs/synthesis.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT synthesis.lo -MD -MP -MF .deps/synthesis.Tpo -c synthesis.c -o synthesis.o >/dev/null 2>&1
+mv -f .deps/synthesis.Tpo .deps/synthesis.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT psy.lo -MD -MP -MF .deps/psy.Tpo -c -o psy.lo psy.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT psy.lo -MD -MP -MF .deps/psy.Tpo -c psy.c  -DDLL_EXPORT -DPIC -o .libs/psy.o
+psy.c: In Funktion »_vp_couple_quantize_normalize«:
+psy.c:1164:17: Warnung: »/*« innerhalb des Kommentars [-Wcomment]
+psy.c:1023:9: Warnung: Variable »de« wird nicht verwendet [-Wunused-variable]
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT psy.lo -MD -MP -MF .deps/psy.Tpo -c psy.c -o psy.o >/dev/null 2>&1
+mv -f .deps/psy.Tpo .deps/psy.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT info.lo -MD -MP -MF .deps/info.Tpo -c -o info.lo info.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT info.lo -MD -MP -MF .deps/info.Tpo -c info.c  -DDLL_EXPORT -DPIC -o .libs/info.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT info.lo -MD -MP -MF .deps/info.Tpo -c info.c -o info.o >/dev/null 2>&1
+mv -f .deps/info.Tpo .deps/info.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT floor1.lo -MD -MP -MF .deps/floor1.Tpo -c -o floor1.lo floor1.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT floor1.lo -MD -MP -MF .deps/floor1.Tpo -c floor1.c  -DDLL_EXPORT -DPIC -o .libs/floor1.o
+floor1.c: In Funktion »floor1_look«:
+floor1.c:197:57: Warnung: unbenutzter Parameter »vd« [-Wunused-parameter]
+floor1.c: In Funktion »floor1_inverse1«:
+floor1.c:1038:9: Warnung: Klammern um »+« in Operand von »&« empfohlen [-Wparentheses]
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT floor1.lo -MD -MP -MF .deps/floor1.Tpo -c floor1.c -o floor1.o >/dev/null 2>&1
+mv -f .deps/floor1.Tpo .deps/floor1.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT floor0.lo -MD -MP -MF .deps/floor0.Tpo -c -o floor0.lo floor0.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT floor0.lo -MD -MP -MF .deps/floor0.Tpo -c floor0.c  -DDLL_EXPORT -DPIC -o .libs/floor0.o
+floor0.c: In Funktion »floor0_look«:
+floor0.c:146:57: Warnung: unbenutzter Parameter »vd« [-Wunused-parameter]
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT floor0.lo -MD -MP -MF .deps/floor0.Tpo -c floor0.c -o floor0.o >/dev/null 2>&1
+mv -f .deps/floor0.Tpo .deps/floor0.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT res0.lo -MD -MP -MF .deps/res0.Tpo -c -o res0.lo res0.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT res0.lo -MD -MP -MF .deps/res0.Tpo -c res0.c  -DDLL_EXPORT -DPIC -o .libs/res0.o
+res0.c: In Funktion »_encodepart«:
+res0.c:394:45: Warnung: unbenutzter Parameter »acc« [-Wunused-parameter]
+res0.c: In Funktion »_01forward«:
+res0.c:537:37: Warnung: unbenutzter Parameter »vb« [-Wunused-parameter]
+res0.c:542:27: Warnung: unbenutzter Parameter »submap« [-Wunused-parameter]
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT res0.lo -MD -MP -MF .deps/res0.Tpo -c res0.c -o res0.o >/dev/null 2>&1
+mv -f .deps/res0.Tpo .deps/res0.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT mapping0.lo -MD -MP -MF .deps/mapping0.Tpo -c -o mapping0.lo mapping0.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT mapping0.lo -MD -MP -MF .deps/mapping0.Tpo -c mapping0.c  -DDLL_EXPORT -DPIC -o .libs/mapping0.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT mapping0.lo -MD -MP -MF .deps/mapping0.Tpo -c mapping0.c -o mapping0.o >/dev/null 2>&1
+mv -f .deps/mapping0.Tpo .deps/mapping0.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT registry.lo -MD -MP -MF .deps/registry.Tpo -c -o registry.lo registry.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT registry.lo -MD -MP -MF .deps/registry.Tpo -c registry.c  -DDLL_EXPORT -DPIC -o .libs/registry.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT registry.lo -MD -MP -MF .deps/registry.Tpo -c registry.c -o registry.o >/dev/null 2>&1
+mv -f .deps/registry.Tpo .deps/registry.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT codebook.lo -MD -MP -MF .deps/codebook.Tpo -c -o codebook.lo codebook.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT codebook.lo -MD -MP -MF .deps/codebook.Tpo -c codebook.c  -DDLL_EXPORT -DPIC -o .libs/codebook.o
+codebook.c: In Funktion »vorbis_staticbook_unpack«:
+codebook.c:251:7: Warnung: Klammern um »+« innerhalb von »>>« empfohlen [-Wparentheses]
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT codebook.lo -MD -MP -MF .deps/codebook.Tpo -c codebook.c -o codebook.o >/dev/null 2>&1
+mv -f .deps/codebook.Tpo .deps/codebook.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT sharedbook.lo -MD -MP -MF .deps/sharedbook.Tpo -c -o sharedbook.lo sharedbook.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT sharedbook.lo -MD -MP -MF .deps/sharedbook.Tpo -c sharedbook.c  -DDLL_EXPORT -DPIC -o .libs/sharedbook.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT sharedbook.lo -MD -MP -MF .deps/sharedbook.Tpo -c sharedbook.c -o sharedbook.o >/dev/null 2>&1
+mv -f .deps/sharedbook.Tpo .deps/sharedbook.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT lookup.lo -MD -MP -MF .deps/lookup.Tpo -c -o lookup.lo lookup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT lookup.lo -MD -MP -MF .deps/lookup.Tpo -c lookup.c  -DDLL_EXPORT -DPIC -o .libs/lookup.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT lookup.lo -MD -MP -MF .deps/lookup.Tpo -c lookup.c -o lookup.o >/dev/null 2>&1
+mv -f .deps/lookup.Tpo .deps/lookup.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT bitrate.lo -MD -MP -MF .deps/bitrate.Tpo -c -o bitrate.lo bitrate.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT bitrate.lo -MD -MP -MF .deps/bitrate.Tpo -c bitrate.c  -DDLL_EXPORT -DPIC -o .libs/bitrate.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT bitrate.lo -MD -MP -MF .deps/bitrate.Tpo -c bitrate.c -o bitrate.o >/dev/null 2>&1
+mv -f .deps/bitrate.Tpo .deps/bitrate.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -no-undefined -version-info 4:5:4  -o libvorbis.la -rpath /mingw/lib mdct.lo smallft.lo block.lo envelope.lo window.lo lsp.lo lpc.lo analysis.lo synthesis.lo psy.lo info.lo floor1.lo floor0.lo res0.lo mapping0.lo registry.lo codebook.lo sharedbook.lo lookup.lo bitrate.lo -lm -L/mingw/lib -logg 
+libtool: link: gcc -shared  .libs/mdct.o .libs/smallft.o .libs/block.o .libs/envelope.o .libs/window.o .libs/lsp.o .libs/lpc.o .libs/analysis.o .libs/synthesis.o .libs/psy.o .libs/info.o .libs/floor1.o .libs/floor0.o .libs/res0.o .libs/mapping0.o .libs/registry.o .libs/codebook.o .libs/sharedbook.o .libs/lookup.o .libs/bitrate.o   -L/mingw/lib -logg  -march=i686   -o .libs/libvorbis-0.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libvorbis.dll.a
+Creating library file: .libs/libvorbis.dll.a
+libtool: link: ar cru .libs/libvorbis.a  mdct.o smallft.o block.o envelope.o window.o lsp.o lpc.o analysis.o synthesis.o psy.o info.o floor1.o floor0.o res0.o mapping0.o registry.o codebook.o sharedbook.o lookup.o bitrate.o
+libtool: link: ranlib .libs/libvorbis.a
+libtool: link: ( cd ".libs" && rm -f "libvorbis.la" && cp -p "../libvorbis.la" "libvorbis.la" )
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT vorbisfile.lo -MD -MP -MF .deps/vorbisfile.Tpo -c -o vorbisfile.lo vorbisfile.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT vorbisfile.lo -MD -MP -MF .deps/vorbisfile.Tpo -c vorbisfile.c  -DDLL_EXPORT -DPIC -o .libs/vorbisfile.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT vorbisfile.lo -MD -MP -MF .deps/vorbisfile.Tpo -c vorbisfile.c -o vorbisfile.o >/dev/null 2>&1
+mv -f .deps/vorbisfile.Tpo .deps/vorbisfile.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -no-undefined -version-info 6:4:3  -o libvorbisfile.la -rpath /mingw/lib vorbisfile.lo libvorbis.la -L/mingw/lib -logg 
+libtool: link: gcc -shared  .libs/vorbisfile.o   ./.libs/libvorbis.dll.a -L/mingw/lib -logg  -march=i686   -o .libs/libvorbisfile-3.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libvorbisfile.dll.a
+Creating library file: .libs/libvorbisfile.dll.a
+libtool: link: ar cru .libs/libvorbisfile.a  vorbisfile.o
+libtool: link: ranlib .libs/libvorbisfile.a
+libtool: link: ( cd ".libs" && rm -f "libvorbisfile.la" && cp -p "../libvorbisfile.la" "libvorbisfile.la" )
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT vorbisenc.lo -MD -MP -MF .deps/vorbisenc.Tpo -c -o vorbisenc.lo vorbisenc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT vorbisenc.lo -MD -MP -MF .deps/vorbisenc.Tpo -c vorbisenc.c  -DDLL_EXPORT -DPIC -o .libs/vorbisenc.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -MT vorbisenc.lo -MD -MP -MF .deps/vorbisenc.Tpo -c vorbisenc.c -o vorbisenc.o >/dev/null 2>&1
+mv -f .deps/vorbisenc.Tpo .deps/vorbisenc.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -no-undefined -version-info 2:8:0  -o libvorbisenc.la -rpath /mingw/lib vorbisenc.lo libvorbis.la -L/mingw/lib -logg 
+libtool: link: gcc -shared  .libs/vorbisenc.o   ./.libs/libvorbis.dll.a -L/mingw/lib -logg  -march=i686   -o .libs/libvorbisenc-2.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libvorbisenc.dll.a
+Creating library file: .libs/libvorbisenc.dll.a
+libtool: link: ar cru .libs/libvorbisenc.a  vorbisenc.o
+libtool: link: ranlib .libs/libvorbisenc.a
+libtool: link: ( cd ".libs" && rm -f "libvorbisenc.la" && cp -p "../libvorbisenc.la" "libvorbisenc.la" )
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include   -D_V_SELFTEST -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT test_sharedbook-sharedbook.o -MD -MP -MF .deps/test_sharedbook-sharedbook.Tpo -c -o test_sharedbook-sharedbook.o `test -f 'sharedbook.c' || echo '/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/lib/'`sharedbook.c
+mv -f .deps/test_sharedbook-sharedbook.Tpo .deps/test_sharedbook-sharedbook.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -D_V_SELFTEST -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H   -o test_sharedbook.exe test_sharedbook-sharedbook.o -lm 
+libtool: link: gcc -D_V_SELFTEST -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -o .libs/test_sharedbook.exe test_sharedbook-sharedbook.o 
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib'
+Making all in test
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/test'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/test'
+Making all in doc
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+Making all in libvorbis
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/libvorbis'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/libvorbis'
+Making all in vorbisfile
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisfile'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisfile'
+Making all in vorbisenc
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisenc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc/vorbisenc'
+make[3]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+echo "*** Warning: Doxygen not found; documentation will not be built."
+*** Warning: Doxygen not found; documentation will not be built.
+touch doxygen-build.stamp
+make[3]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/doc'
+Making all in examples
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/examples'
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/examples -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT decoder_example.o -MD -MP -MF .deps/decoder_example.Tpo -c -o decoder_example.o decoder_example.c
+mv -f .deps/decoder_example.Tpo .deps/decoder_example.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H   -o decoder_example.exe decoder_example.o ../lib/libvorbis.la  
+libtool: link: gcc -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -o .libs/decoder_example.exe decoder_example.o  ../lib/.libs/libvorbis.dll.a -L/mingw/lib -logg -L/mingw/lib
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/examples -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT encoder_example.o -MD -MP -MF .deps/encoder_example.Tpo -c -o encoder_example.o encoder_example.c
+encoder_example.c: In Funktion »main«:
+encoder_example.c:56:10: Warnung: Variable »founddata« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+mv -f .deps/encoder_example.Tpo .deps/encoder_example.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H   -o encoder_example.exe encoder_example.o ../lib/libvorbisenc.la ../lib/libvorbis.la  
+libtool: link: gcc -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -o .libs/encoder_example.exe encoder_example.o  ../lib/.libs/libvorbisenc.dll.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/.libs/libvorbis.dll.a -L/mingw/lib ../lib/.libs/libvorbis.dll.a -logg -L/mingw/lib
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/examples -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT chaining_example.o -MD -MP -MF .deps/chaining_example.Tpo -c -o chaining_example.o chaining_example.c
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:75:21: Warnung: »OV_CALLBACKS_DEFAULT« definiert, aber nicht verwendet [-Wunused-variable]
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:89:21: Warnung: »OV_CALLBACKS_STREAMONLY« definiert, aber nicht verwendet [-Wunused-variable]
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:96:21: Warnung: »OV_CALLBACKS_STREAMONLY_NOCLOSE« definiert, aber nicht verwendet [-Wunused-variable]
+mv -f .deps/chaining_example.Tpo .deps/chaining_example.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H   -o chaining_example.exe chaining_example.o ../lib/libvorbisfile.la ../lib/libvorbis.la  
+libtool: link: gcc -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -o .libs/chaining_example.exe chaining_example.o  ../lib/.libs/libvorbisfile.dll.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/.libs/libvorbis.dll.a -L/mingw/lib ../lib/.libs/libvorbis.dll.a -logg -L/mingw/lib
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/examples -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT vorbisfile_example.o -MD -MP -MF .deps/vorbisfile_example.Tpo -c -o vorbisfile_example.o vorbisfile_example.c
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:75:21: Warnung: »OV_CALLBACKS_DEFAULT« definiert, aber nicht verwendet [-Wunused-variable]
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:89:21: Warnung: »OV_CALLBACKS_STREAMONLY« definiert, aber nicht verwendet [-Wunused-variable]
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:96:21: Warnung: »OV_CALLBACKS_STREAMONLY_NOCLOSE« definiert, aber nicht verwendet [-Wunused-variable]
+mv -f .deps/vorbisfile_example.Tpo .deps/vorbisfile_example.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H   -o vorbisfile_example.exe vorbisfile_example.o ../lib/libvorbisfile.la ../lib/libvorbis.la  
+libtool: link: gcc -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -o .libs/vorbisfile_example.exe vorbisfile_example.o  ../lib/.libs/libvorbisfile.dll.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/.libs/libvorbis.dll.a -L/mingw/lib ../lib/.libs/libvorbis.dll.a -logg -L/mingw/lib
+gcc -DHAVE_CONFIG_H -I. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/examples -I.. -I/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include -I/mingw/include    -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H -MT seeking_example.o -MD -MP -MF .deps/seeking_example.Tpo -c -o seeking_example.o seeking_example.c
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:75:21: Warnung: »OV_CALLBACKS_DEFAULT« definiert, aber nicht verwendet [-Wunused-variable]
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:89:21: Warnung: »OV_CALLBACKS_STREAMONLY« definiert, aber nicht verwendet [-Wunused-variable]
+C:/MinGW/msys/1.0/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/libvorbis-1.3.2/include/vorbis/vorbisfile.h:96:21: Warnung: »OV_CALLBACKS_STREAMONLY_NOCLOSE« definiert, aber nicht verwendet [-Wunused-variable]
+mv -f .deps/seeking_example.Tpo .deps/seeking_example.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement  -march=i686 -DUSE_MEMORY_H   -o seeking_example.exe seeking_example.o ../lib/libvorbisfile.la ../lib/libvorbis.la  
+libtool: link: gcc -O20 -Wall -Wextra -D__NO_MATH_INLINES -fsigned-char -Wdeclaration-after-statement -march=i686 -DUSE_MEMORY_H -o .libs/seeking_example.exe seeking_example.o  ../lib/.libs/libvorbisfile.dll.a /home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/lib/.libs/libvorbis.dll.a -L/mingw/lib ../lib/.libs/libvorbis.dll.a -logg -L/mingw/lib
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld/examples'
+make[2]: Entering directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'
+make[1]: Leaving directory `/home/Dominik_2/libvorbis-1.3.2-1-mingw32-src/bld'

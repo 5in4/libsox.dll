@@ -1,0 +1,62 @@
+Installing into /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst from /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld
+Making install in src
+make[1]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/src'
+make[2]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/src'
+test -z "/mingw/lib" || /bin/mkdir -p "/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib"
+ /bin/sh ../libtool   --mode=install /bin/install -c  'libwavpack.la' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/libwavpack.la'
+/bin/install -c .libs/libwavpack.dll.a /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/libwavpack.dll.a
+base_file=`basename ${file}`
+ dlpath=`/bin/sh 2>&1 -c '. .libs/'${base_file}'i;echo $dlname'`
+ dldir=/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/`dirname $dlpath`
+ test -d $dldir || mkdir -p $dldir
+ /bin/install -c .libs/libwavpack-1.dll $dldir/libwavpack-1.dll
+ chmod a+x $dldir/libwavpack-1.dll
+/bin/install -c .libs/libwavpack.lai /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/libwavpack.la
+/bin/install -c .libs/libwavpack.a /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/libwavpack.a
+chmod 644 /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/libwavpack.a
+ranlib /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/libwavpack.a
+libtool: install: warning: remember to run `libtool --finish /mingw/lib'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/src'
+make[1]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/src'
+Making install in include
+make[1]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/include'
+make[2]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/include'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/include/wavpack" || /bin/mkdir -p "/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/include/wavpack"
+ /bin/install -c -m 644 '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/include/wavpack.h' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/include/wavpack/wavpack.h'
+make[2]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/include'
+make[1]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/include'
+Making install in cli
+make[1]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/cli'
+make[2]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/cli'
+test -z "/mingw/bin" || /bin/mkdir -p "/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/bin"
+  /bin/sh ../libtool   --mode=install /bin/install -c 'wavpack.exe' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/bin/wavpack.exe'
+libtool: install: warning: `../src/.libs/libwavpack.la' has not been installed in `/mingw/lib'
+/bin/install -c .libs/wavpack.exe /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/bin/wavpack.exe
+  /bin/sh ../libtool   --mode=install /bin/install -c 'wvunpack.exe' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/bin/wvunpack.exe'
+libtool: install: warning: `../src/.libs/libwavpack.la' has not been installed in `/mingw/lib'
+/bin/install -c .libs/wvunpack.exe /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/bin/wvunpack.exe
+  /bin/sh ../libtool   --mode=install /bin/install -c 'wvgain.exe' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/bin/wvgain.exe'
+libtool: install: warning: `../src/.libs/libwavpack.la' has not been installed in `/mingw/lib'
+/bin/install -c .libs/wvgain.exe /home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/bin/wvgain.exe
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/cli'
+make[1]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/cli'
+Making install in man
+make[1]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/man'
+make[2]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/man'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/share/man/man1" || /bin/mkdir -p "/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/share/man/man1"
+ /bin/install -c -m 644 '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/man/wavpack.1' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/share/man/man1/wavpack.1'
+ /bin/install -c -m 644 '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/man/wvgain.1' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/share/man/man1/wvgain.1'
+ /bin/install -c -m 644 '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/wavpack-4.60.1/man/wvunpack.1' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/share/man/man1/wvunpack.1'
+make[2]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/man'
+make[1]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld/man'
+make[1]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld'
+make[2]: Entering directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/mingw/lib/pkgconfig" || /bin/mkdir -p "/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/pkgconfig"
+ /bin/install -c -m 644 'wavpack.pc' '/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/inst/mingw/lib/pkgconfig/wavpack.pc'
+make[2]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld'
+make[1]: Leaving directory `/home/Dominik_2/wavpack-4.60.1-1-mingw32-src/bld'
